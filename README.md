@@ -3,6 +3,9 @@ This tool will allow staff of a multi-location climbing gym to update their RGP 
 
 *This is for locally hosted RGP installations only!  There is no need for a tool like this if you are using RGP Cloud.*
 
+## Download
+Head over to the [releases tab](https://github.com/reganface/rgp-auto-config/releases/) to download this program.
+
 ## How it Works
 This program will piggy back off of your existing RGP configuration to connect to your database, get all possible remote database connections, and automatically choose the correct connection based off of the client's IP address.  It assumes that the local database will exist within the same subnet as the client.
 
